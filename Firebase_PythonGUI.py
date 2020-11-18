@@ -24,11 +24,10 @@ from tkinter import ttk
 
 
 #connection with firbase real time database
-fb=firebase.FirebaseApplication("https://pythonrtdb.firebaseio.com/",None)
+fb=firebase.FirebaseApplication("https://(Database_name).firebaseio.com/",None)
 
 
 def clear1():
-
     #clear all the entry fields
     val0.delete(0, 'end')
     val1.delete(0, 'end')
